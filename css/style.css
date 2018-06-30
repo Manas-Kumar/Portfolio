@@ -22,21 +22,21 @@ time, mark, audio, video {
 
 
 html,body {
- margin:0px;
- height:100%;
+ 	margin:0px;
+ 	height:100%;
 }
 
 .container {
-	height:100%;
-	background-image: url(../img/background.jpg);
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    	height:100%;
+    	background-image: url(../img/background.jpg);
+    	background-position: center;
+    	background-repeat: no-repeat;
+   	background-size: cover;
 }
 
 .wrapper {
- height:100%;
- background-image:-webkit-linear-gradient(rgba(255,0,0,0.6), rgb(0,9,14,0.9));
+ 	height:100%;
+	background-image:-webkit-linear-gradient(rgba(255,0,0,0.6), rgb(0,9,14,0.9));
 }
 
 .header {
@@ -55,13 +55,18 @@ html,body {
 
 .header-top a {
 	text-decoration: none;
-    color: white;
+    	color:#fff;
+}
+
+.top-left {
+	text-align:left;
+	width:0 auto;
 }
 
 .top-right {
 	text-align:right;
+	width:0 auto;
 }
-	
 	
 
 
