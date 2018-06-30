@@ -58,6 +58,10 @@ html,body {
     	color:#fff;
 }
 
+.header-top a:hover {
+    color: #ffff00;
+}
+
 .top-left {
 	text-align:left;
 	width:0 auto;
