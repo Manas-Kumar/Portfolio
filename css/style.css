@@ -79,9 +79,11 @@ html,body {
 	height:auto;
 }
 
-.content img {
-    width: 20%;
-    height: auto;
+#logo {
+	text-align:center;
+	width:20%;
+	height:auto;
+	background-image:url(../img/logo.png);
 }
 
 .middle_name {
@@ -99,8 +101,8 @@ html,body {
     color: #ffff00;
     font-size: 45px;
     font-family: 'Monoton', cursive;
-}
 
+	
 .mid_buttons {
 	padding: 2% 33% 2% 33%;
 	position:relative;
