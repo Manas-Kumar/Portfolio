@@ -19,18 +19,17 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-
-
 html,body {
  	margin:0px;
  	height:100%;
+	line-height:1;
 }
 
 .container {
-    	height:100%;
-    	background-image: url(../img/background.jpg);
-    	background-position: center;
-    	background-repeat: no-repeat;
+    height:100%;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
    	background-size: cover;
 }
 
@@ -55,7 +54,7 @@ html,body {
 
 .header-top a {
 	text-decoration: none;
-    	color:#fff;
+    color:#fff;
 }
 
 .header-top a:hover {
@@ -71,18 +70,116 @@ html,body {
 	text-align:right;
 	width:0 auto;
 }
+
+.fab.fa-linkedin {
+    color: #ffff00;
+}
 	
+.content {
+	height:auto;
+}
+
+.content img {
+    width: 20%;
+    height: auto;
+}
+
+.middle_name {
+	text-align:center;
+	color: #fff;
+}
+
+.middle_name h2 {
+	font-family: 'Monoton', cursive;
+	font-size: 45px;
+	padding:2% 0 2% 0;
+}
+
+#graphicolor {
+    color: #ffff00;
+    font-size: 45px;
+    font-family: 'Monoton', cursive;
+}
+
+.mid_buttons {
+	padding: 2% 33% 2% 33%;
+	position:relative;
+	text-align:center;
+}
+
+.mid_buttons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mid_buttons a:hover {
+    color: #ffff00;
+}
+
+.mid_but1 {
+	float:left;
+}
+
+.mid_but2 {
+	display: inline-block;
+    margin:0 auto;
+}
+
+.mid_but3 {
+	float:right;
+}
+
+.footer {
+	text-align:center;
+	height:auto;
+}
+
+.space_divider {
+	width:44%;
+	float:left;
+}
+
+.portfolio {
+	float:left;
+	text-align:center;
+	padding:2% 0 2% 0;
+}
+
+.btn {
+  border: 2px solid #ffff00;
+  background-color: rgba(255,255,255 transparent);
+  color: #ffff00;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(255,0,0,0.6);
+}
 
 
+.object {
+  animation: MoveUpDown 2s linear infinite;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding:0 49%;
+}
 
+.fa, .fas {
+    font-size: 33px;
+	color:#FFF;
+}
 
-
-
-
-
-
-
-
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
 
 
 
