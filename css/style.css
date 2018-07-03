@@ -174,7 +174,7 @@ html,body {
 
 @keyframes MoveUpDown {
   0%, 100% {
-    bottom: 10;
+    bottom: 10px;
   }
   50% {
     bottom: 60px;
