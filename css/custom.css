@@ -22,18 +22,37 @@ html, body{
   	background-size: cover;
 }
 
+.manas_kr {
+	text-align:center;
+}
+
 .manas_kr a {
 	color:#FFF;
 	text-decoration:none;		
 }
 
 .linkedin_align {
-	text-align:right;
+	text-align:center;
 }
 
 .linkedin_align a {
 	color:#FFF;
 	text-decoration:none;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones and tab */
+.logo img {
+     width: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones and tab */
+.logo {
+    padding-top:0% !important;
+	padding-bottom:0% !important;	
+ }
 }
 
 .logo{
@@ -47,6 +66,15 @@ html, body{
 	color:#FFF;
 }
 
+@media only screen and (max-width: 480px) {
+	/* for mobile screen */
+.create h2 {
+	font-size:33px !important;
+	padding-bottom:0px !important;
+	line-height:33px !important;
+ }
+}
+
 .create h2 {
 	/*font-family: 'Raleway', sans-serif;
 	font-family: 'Lobster', cursive;
@@ -55,6 +83,7 @@ html, body{
 	font-family: 'Monoton', cursive;
 	font-size: 60px;
 	padding-bottom:2%;	
+	line-height:60px;
 }
 
 #graphicolor {
