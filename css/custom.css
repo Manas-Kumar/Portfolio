@@ -249,9 +249,71 @@ section::after {
 /* scroll button ***************************************************************************END*****************/
 
 
+/* section 2 start */
+
 #sec2 {
-	background-color:blue;
+	background-color:#072D38;
 }
+
+
+.paddingsec2{
+	padding-top:2%;
+}
+
+.title {
+	color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/*adjust row tab width inside tab class */ 
+.inside-tab-padding {
+	width:99%;
+}
+
+/* tab link color*/
+
+.nav-tabs > li > a {
+	
+    color: #FF9F1C;
+
+}
+
+/*** lightbox ******/
+
+.lb-data .lb-close {
+	
+    background: url(../img/close.png) top right no-repeat !important;
+	
+}
+
+.lb-nav a.lb-next {
+	
+    background: url(../img/next.png) right 48% no-repeat !important;
+	
+}
+
+
+.lb-nav a.lb-prev {
+  
+    background: url(../img/prev.png) left 48% no-repeat !important;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
